@@ -19,16 +19,6 @@ namespace ImmutableDictionaryBenchmark
                         TargetCount = 5
                          },
                 });
-
-            // The same, using the .With() factory methods:
-            // Add(
-            //     Job.Dry
-            //     .With(Platform.X64)
-            //     .With(Jit.RyuJit)
-            //     .With(Runtime.Core)
-            //     .WithLaunchCount(5)
-            //     .WithIterationTime(TimeInterval.Millisecond * 200)
-            //     .WithId("CollectionBenchmarkJob")); // IMPORTANT: Id assignment should be the last call in the chain or the id will be lost.
         }
     }
 }
