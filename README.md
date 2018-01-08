@@ -12,6 +12,7 @@ TargetCount=5  UnrollFactor=1  WarmupCount=0
 
 ```
 `Dictionary Read Benchmarks`
+
 |                           Method |    Mean |    Error |   StdDev |
 |--------------------------------- |--------:|---------:|---------:|
 |          UisngDictionaryGetValue | 1.181 s | 0.2108 s | 0.0548 s |
@@ -20,6 +21,7 @@ TargetCount=5  UnrollFactor=1  WarmupCount=0
 ---
 
 `Dictionary Write Benchmarks`
+
 |                             Method |      Mean |    Error |   StdDev |
 |----------------------------------- |----------:|---------:|---------:|
 |                    UsingDictionary |   5.151 s |  2.724 s | 0.7074 s |
@@ -30,6 +32,7 @@ TargetCount=5  UnrollFactor=1  WarmupCount=0
 ---
 
 `List Benchmarks`
+
 |          Method |    Mean |    Error |   StdDev |
 |---------------- |--------:|---------:|---------:|
 |       UsingList | 1.212 s | 0.2687 s | 0.0698 s |
